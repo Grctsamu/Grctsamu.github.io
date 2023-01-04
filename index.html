@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chat Client</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/client.css">
+    <script src="js/client.js"></script>
+  </head>
+  <body>
+    <!-- (A) CHAT HISTORY -->
+    <div id="chatShow"></div>
+
+    <!-- (B) CHAT FORM -->
+    <form id="chatForm" onsubmit="return chat.send();">
+      <input id="chatMsg" type="text" required disabled>
+      <input id="chatGo" type="submit" value="Go" disabled>
+    </form>
+  </body>
+</html>
